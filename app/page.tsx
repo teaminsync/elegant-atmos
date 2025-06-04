@@ -174,7 +174,7 @@ export default function ElegantAtmosWireframe() {
   ]
 
   return (
-    <div className="min-h-screen bg-[#EDE7DD] text-[#3A3A3A] overflow-x-hidden pt-10">
+    <div className="min-h-screen bg-[#EDE7DD] text-[#3A3A3A] overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-[#B8B2A7]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -239,7 +239,7 @@ export default function ElegantAtmosWireframe() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-10">
         {/* Background with parallax effect */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#EDE7DD] via-white to-[#B8B2A7]/30"></div>
 
