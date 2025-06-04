@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Wireframe - ELegant Atmos',
+  title: 'Wireframe - Elegant Atmos',
   description: 'Wireframe',
   generator: 'InSync Solutions',
 }
